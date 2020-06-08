@@ -19,6 +19,7 @@
 
    "repository": "github:coalpha/browser-zoom-listener",
 
+   "main": "dist/lib.cjs",
    "browser": "dist/lib.cjs",
    "types": "types/lib.cjs.d.ts",
 

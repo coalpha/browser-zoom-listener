@@ -2,6 +2,10 @@
 
 [how-to-import](how-to-import.md)
 
+Obviously, this wasn't meant to be used server side.
+If you're using es6 modules or `require`, you're going to need to use a bundler
+or browserify or something.
+
 ### `browserZoomListener((devicePixelRatio: number) => void): void`
 
 ```ts

@@ -6,7 +6,7 @@ qualified people that can explain this better than me.
 
 ### CommonJS
 
-Node Resolution:
+Node resolution:
 
 ```js
 const browserZoomListener = require("browser-zoom-listener");
@@ -20,8 +20,17 @@ const browserZoomListener = require("./dist/lib.cjs");
 
 ### ESM
 
-```ts
+```js
 import browserZoomListener from "./dist/lib.mjs";
+```
+
+### TypeScript
+
+Node resolution:
+
+```ts
+import browserZoomListener from "browser-zoom-listener/lib";
+// works without synthetic default export
 ```
 
 ### IIFE
