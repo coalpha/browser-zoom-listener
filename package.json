@@ -2,7 +2,8 @@
    "name": "browser-zoom-listener",
    "version": "1.0.0",
    "description": "Listen to window zoom changes",
-   "main": "mod.js",
+   "main": "dist/lib.cjs",
+   "types": "dist/lib.d.ts",
    "scripts": {
       "start": "rollup -c"
    },

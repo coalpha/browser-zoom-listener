@@ -9,7 +9,7 @@ const formats = {
    umd: "umd.js",
 }
 
-module.exports = Object.entries(formats).map(([format, ext]) => {
+module.exports = Object.entries(formats).map(([format, ext]) => ({
    input: "src/lib.ts",
    output: {
       file: `dist/lib.${ext}`,
@@ -18,4 +18,4 @@ module.exports = Object.entries(formats).map(([format, ext]) => {
       strict: true,
    },
    plugins: [typescript(), terser()],
-});
+}));

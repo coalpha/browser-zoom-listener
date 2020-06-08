@@ -1,0 +1,30 @@
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0; /* needed to stop the CSSPixels from zooming */
+   overflow: hidden;
+}
+
+body {
+   background-color: rgb(56, 40, 36);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: #eef;
+   font-size: 2vw;
+   font-weight: bold;
+   font-family: "Courier New", Courier, monospace;
+}
+
+pre {
+   display: block;
+}
+
+a {
+   color: pink;
+}
+
+a:visited {
+   color: rgb(202, 132, 144);
+}
