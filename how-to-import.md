@@ -36,7 +36,6 @@ import browserZoomListener from "./dist/lib.mjs";
 ### The Fast Way
 
 Copy the stuff in [this file](dist/lib.iife.js).
-Just paste it into whatever JS file you need to use it in and you should be able
-to use `browserZoomListener`.
+It's one big expression that goes into `browserZoomListener`.
 
 Don't worry about licencing because it's free and unencumbered software.

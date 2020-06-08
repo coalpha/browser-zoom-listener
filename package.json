@@ -2,11 +2,30 @@
    "name": "browser-zoom-listener",
    "version": "1.0.0",
    "description": "Listen to window zoom changes",
-   "main": "dist/lib.cjs",
+   
+   "homepage": "https://github.com/coalpha/browser-zoom-listener",
+   "bugs": "https://github.com/coalpha/browser-zoom-listener/issues",
+   "author": "coalpha",
+
+   "files": [
+      "lib.ts",
+      "dist/lib.cjs",
+      "types/lib.cjs.d.ts"
+   ],
+
+   "directories": {
+      "example": "example/"
+   },
+
+   "repository": "github:coalpha/browser-zoom-listener",
+
+   "browser": "dist/lib.cjs",
    "types": "types/lib.cjs.d.ts",
+
    "scripts": {
       "start": "rollup -c"
    },
+
    "keywords": [
       "browser",
       "devicePixelRatio",
@@ -14,8 +33,9 @@
       "listener",
       "zoom"
    ],
-   "author": "coalpha",
+
    "license": "UNLICENCED",
+
    "devDependencies": {
       "rollup": "^2.14.0",
       "rollup-plugin-terser": "^6.1.0",

@@ -5,7 +5,8 @@
 ### `browserZoomListener((devicePixelRatio: number) => void): void`
 
 ```ts
-   browserZoomListener((dpr: number) => console.log(dpr));
+// like so:
+browserZoomListener((dpr: number) => console.log(dpr));
 ```
 
 It's really not that hard.
