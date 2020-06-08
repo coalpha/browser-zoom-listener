@@ -5,8 +5,6 @@ Try zooming the browser.
 Note the time of update below.\
 `;
 
-var a = require("../../browser-zoom-listener");
-
 function displayOutput(dpr) {
    const normalized_dpr = dpr.toString().padStart(18, " ");
    const date = new Date().toLocaleTimeString().padStart(22, " ");
