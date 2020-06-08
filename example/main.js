@@ -5,13 +5,14 @@ Try zooming the browser.
 Note the time of update below.\
 `;
 
-/** @type {NumberConsumer} */
+var a = require("../../browser-zoom-listener");
+
 function displayOutput(dpr) {
    const normalized_dpr = dpr.toString().padStart(18, " ");
    const date = new Date().toLocaleTimeString().padStart(22, " ");
    c.innerText = `${defaultText}\n\ndevicePixelRatio: ${normalized_dpr}\nLast Updated: ${date}`;
 }
 
-displayOutput(window.devicePixelRatio);
+displayOutput(devicePixelRatio);
 
 browserZoomListener(displayOutput);

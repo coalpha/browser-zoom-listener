@@ -3,7 +3,7 @@
    "version": "1.0.0",
    "description": "Listen to window zoom changes",
    "main": "dist/lib.cjs",
-   "types": "dist/lib.d.ts",
+   "types": "types/lib.cjs.d.ts",
    "scripts": {
       "start": "rollup -c"
    },

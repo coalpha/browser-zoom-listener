@@ -1,1 +1,0 @@
-define((function(){"use strict";var i=window.devicePixelRatio,e=[],n=!1;function t(){var t=window.devicePixelRatio;if(t!==i){for(var o=0;o<e.length;o++)e[o](t);i=t}n=!1}return window.addEventListener("resize",(function(){n||window.requestAnimationFrame(t)})),function(i){e.push(i)}}));

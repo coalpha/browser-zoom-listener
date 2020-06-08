@@ -2,7 +2,6 @@ const typescript = require("rollup-plugin-typescript2");
 const { terser } = require("rollup-plugin-terser");
 
 const formats = {
-   amd: "amd.js",
    cjs: "cjs",
    es: "mjs",
    iife: "iife.js",
@@ -10,7 +9,7 @@ const formats = {
 }
 
 module.exports = Object.entries(formats).map(([format, ext]) => ({
-   input: "src/lib.ts",
+   input: "lib.ts",
    output: {
       file: `dist/lib.${ext}`,
       name: "browserZoomListener",
