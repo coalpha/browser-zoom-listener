@@ -1,0 +1,10 @@
+{
+   "compilerOptions": {
+      "strict": true,
+      "lib": [
+         "ES5",
+         "DOM",
+      ],
+   },
+   "include": ["src/lib.ts"]
+}

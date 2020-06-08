@@ -1,0 +1,24 @@
+{
+   "name": "browser-zoom-listener",
+   "version": "1.0.0",
+   "description": "Listen to window zoom changes",
+   "main": "mod.js",
+   "scripts": {
+      "start": "rollup -c"
+   },
+   "keywords": [
+      "browser",
+      "devicePixelRatio",
+      "event",
+      "listener",
+      "zoom"
+   ],
+   "author": "coalpha",
+   "license": "UNLICENCED",
+   "devDependencies": {
+      "rollup": "^2.14.0",
+      "rollup-plugin-terser": "^6.1.0",
+      "rollup-plugin-typescript2": "^0.27.1",
+      "typescript": "^3.9.5"
+   }
+}

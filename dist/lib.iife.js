@@ -1,0 +1,1 @@
+var browserZoomListener=function(){"use strict";var i=window.devicePixelRatio,e=[],n=!1;function o(){var o=window.devicePixelRatio;if(o!==i){for(var r=0;r<e.length;r++)e[r](o);i=o}n=!1}return window.addEventListener("resize",(function(){n||window.requestAnimationFrame(o)})),function(i){e.push(i)}}();
