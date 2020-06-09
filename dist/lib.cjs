@@ -1,1 +1,1 @@
-"use strict";var i=window.devicePixelRatio,e=[],n=!1;function o(){var o=window.devicePixelRatio;if(o!==i){for(var t=0;t<e.length;t++)e[t](o);i=o}n=!1}window.addEventListener("resize",(function(){n||window.requestAnimationFrame(o)})),module.exports=function(i){e.push(i)};
+"use strict";var i=window.devicePixelRatio,e=[],n=!1;function o(){var o=window.devicePixelRatio;if(o!==i){for(var t=0;t<e.length;t++)e[t](o);i=o}n=!1}window.addEventListener("resize",(function(){n||(window.requestAnimationFrame(o),n=!0)})),module.exports=function(i){e.push(i)};

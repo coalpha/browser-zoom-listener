@@ -7,6 +7,7 @@ let queued = false;
 function resize() {
    if (!queued) {
       window.requestAnimationFrame(dispatch);
+      queued = true;
    }
 }
 
