@@ -26,7 +26,7 @@ import browserZoomListener from "./dist/lib.mjs";
 
 ### TypeScript
 
-Node resolution:
+[Node resolution:](https://www.staging-typescript.org/docs/handbook/module-resolution.html#node)
 
 ```ts
 import browserZoomListener from "browser-zoom-listener/lib";
