@@ -8,6 +8,7 @@
    "files": [
       "lib.ts",
       "dist/lib.cjs",
+      "dist/lib.mjs",
       "types/lib.cjs.d.ts"
    ],
    "directories": {
