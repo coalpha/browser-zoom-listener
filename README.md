@@ -1,6 +1,6 @@
 # browser-zoom-listener
 
-[![npm version](https://badge.fury.io/js/browser-zoom-listener.svg)](https://badge.fury.io/js/browser-zoom-listener)
+[**README**](https://github.com/coarchive/2020.06.09)
 
 ```shell
 npm install --save browser-zoom-listener
@@ -14,9 +14,6 @@ npm install --save browser-zoom-listener
 // like so:
 browserZoomListener((dpr: number) => console.log(dpr));
 ```
-
-Probably also worth noting that the callback is only run at a maximum of once
-per frame.
 
 ![](example/example.png)
 

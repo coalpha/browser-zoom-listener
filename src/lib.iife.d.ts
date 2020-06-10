@@ -1,1 +1,1 @@
-/// <reference types="./lib" />
+/// <reference types="./lib"/>

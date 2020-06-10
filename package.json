@@ -15,8 +15,8 @@
    "repository": "github:coalpha/browser-zoom-listener",
    "main": "dist/lib.cjs",
    "browser": "dist/lib.cjs",
-   "module": "dist/lib.mjs",
    "types": "src/lib.cjs.d.ts",
+   "module": "dist/lib.mjs",
    "scripts": {
       "start": "rollup -c"
    },

@@ -1,3 +1,3 @@
-/// <reference types="./lib" />
+/// <reference types="./lib"/>
 
 export default browserZoomListener;

@@ -1,4 +1,4 @@
-/// <reference types="../src/lib.iife" />
+/// <reference types="../src/lib.iife"/>
 
 const defaultText = `\
 Try zooming the browser.

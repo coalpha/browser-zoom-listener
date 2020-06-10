@@ -1,4 +1,4 @@
-/// <reference types="./lib" />
+/// <reference types="./lib"/>
 
 let lastdpr = window.devicePixelRatio;
 const fns: NumberConsumer[] = [];
