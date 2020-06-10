@@ -1,6 +1,8 @@
 # browser-zoom-listener
 
-[**README**](https://github.com/coarchive/2020.06.09)
+*It's pointless...*
+
+[**README**](https://github.com/coarchive/bzl-sro)
 
 ```shell
 npm install --save browser-zoom-listener
