@@ -35,7 +35,7 @@ import browserZoomListener from "./dist/lib.mjs";
 [Node resolution:](https://www.staging-typescript.org/docs/handbook/module-resolution.html#node)
 
 ```ts
-import browserZoomListener from "browser-zoom-listener/lib";
+import browserZoomListener from "browser-zoom-listener/src/lib";
 // works without synthetic default export
 ```
 

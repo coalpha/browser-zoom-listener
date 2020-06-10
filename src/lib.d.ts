@@ -1,2 +1,2 @@
-declare type NumberConsumer = (dpr: number) => void;
+type NumberConsumer = (dpr: number) => void;
 declare function browserZoomListener(fn: NumberConsumer): void;

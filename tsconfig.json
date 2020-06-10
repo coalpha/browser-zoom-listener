@@ -6,5 +6,5 @@
          "DOM",
       ],
    },
-   "include": ["lib.ts"]
+   "include": ["src/*"]
 }

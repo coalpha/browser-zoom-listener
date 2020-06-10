@@ -9,7 +9,7 @@ const formats = {
 }
 
 module.exports = Object.entries(formats).map(([format, ext]) => ({
-   input: "lib.ts",
+   input: "src/lib.ts",
    output: {
       file: `dist/lib.${ext}`,
       name: "browserZoomListener",

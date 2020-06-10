@@ -1,4 +1,4 @@
-type NumberConsumer = (dpr: number) => void;
+/// <reference types="./lib" />
 
 let lastdpr = window.devicePixelRatio;
 const fns: NumberConsumer[] = [];
@@ -24,6 +24,6 @@ function dispatch() {
 
 window.addEventListener("resize", resize);
 
-export default function listen(fn: NumberConsumer) {
+export default function browserZoomListener(fn: NumberConsumer): void {
    fns.push(fn);
 }

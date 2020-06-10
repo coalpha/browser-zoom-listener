@@ -1,15 +1,13 @@
 {
    "name": "browser-zoom-listener",
-   "version": "1.1.0",
+   "version": "1.1.1",
    "description": "Listen to window zoom changes",
    "homepage": "https://github.com/coalpha/browser-zoom-listener",
    "bugs": "https://github.com/coalpha/browser-zoom-listener/issues",
    "author": "coalpha",
    "files": [
-      "lib.ts",
-      "dist/lib.cjs",
-      "dist/lib.mjs",
-      "types/lib.cjs.d.ts"
+      "src/*",
+      "dist/*"
    ],
    "directories": {
       "example": "example/"
@@ -18,7 +16,7 @@
    "main": "dist/lib.cjs",
    "browser": "dist/lib.cjs",
    "module": "dist/lib.mjs",
-   "types": "types/lib.cjs.d.ts",
+   "types": "src/lib.cjs.d.ts",
    "scripts": {
       "start": "rollup -c"
    },
